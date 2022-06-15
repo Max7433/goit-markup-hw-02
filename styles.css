@@ -16,9 +16,11 @@ body {
     background-color: var(--backroundcolor-main);
     font-family: Roboto, san-serif;
 }
+
 a {
     text-decoration: none;
 }
+
 .list {
     list-style: none;
 }
@@ -52,10 +54,12 @@ a {
 .logo-web:focus {
     color: var(--accent-color);
 }
+
 .current {
     color: var(--accent-color);
     text-decoration: none;
 }
+
 .list-link {
     font-family: inherit;
     font-size: 14px;
@@ -63,6 +67,7 @@ a {
     letter-spacing: 0.02em;
     color: var(--fontcolor-secondary);
 }
+
 .list-link:hover,
 .list-link:focus {
     color: var(--accent-color);
@@ -168,6 +173,7 @@ a {
     color: var(--fontcolor-main);
     letter-spacing: 0.03em;
 }
+
 /* buttons */
 .button {
     font-family: inherit;
@@ -261,6 +267,6 @@ a {
 }
 
 .footer-gmaps:hover,
-.footer-gmaps:hover {
+.footer-gmaps:focus {
     color: var(--accent-color);
 }
