@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: var(--backroundcolor-main);
+    background-color: var(--backgroundcolor-header);
     font-family: Roboto, san-serif;
     font-weight: 400;
     font-size: 14px;
@@ -81,6 +81,7 @@ a {
 
 .site-nav {
     font-family: inherit;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -125,6 +126,7 @@ a {
     color: var(--fontcolor-main);
     letter-spacing: 0.03em;
     line-height: 1.7;
+    font-weight: 400;
 }
 
 /* < !-- What are we doing --> */
@@ -137,6 +139,10 @@ a {
 }
 
 /* team */
+.team {
+    background-color: var(--backroundcolor-main);
+}
+
 .team-headlines {
     font-style: 700;
     font-size: 36px;
