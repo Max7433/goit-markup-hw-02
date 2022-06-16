@@ -15,6 +15,11 @@
 body {
     background-color: var(--backroundcolor-main);
     font-family: Roboto, san-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--fontcolor-main);
+
 }
 
 a {
@@ -62,6 +67,7 @@ a {
 
 .list-link {
     font-family: inherit;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -98,6 +104,7 @@ a {
     letter-spacing: 0.06em;
     text-align: center;
     vertical-align: top;
+    text-transform: uppercase;
     color: var(--fontcolor);
 }
 
@@ -111,26 +118,33 @@ a {
     color: var(--fontcolor-secondary);
     letter-spacing: 0.03em;
     text-align: left;
+    background-color: var(--backgroundcolor-header);
 }
 
 .section-peculiarities {
     color: var(--fontcolor-main);
     font-size: 14px;
-    font-weight: 500;
     vertical-align: top;
     letter-spacing: 0.03em;
-    text-align: left;
     line-height: 1.7;
+}
+
+/* < !-- What are we doing --> */
+.work-title {
+    font-style: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--fontcolor-secondary);
 }
 
 /* team */
 .team-headlines {
+    font-style: 700;
     font-size: 36px;
-    font-weight: 500;
-    vertical-align: top;
-    letter-spacing: 0.03em;
-    text-align: center;
     line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--fontcolor-secondary);
 }
 
 .team-card {
@@ -140,16 +154,14 @@ a {
 .tc-head {
     font-size: 16px;
     font-weight: 500;
-    vertical-align: top;
     letter-spacing: 0.03em;
-    text-align: center;
     line-height: 1.2;
 }
 
 .team-skill {
     color: var(--fontcolor-main);
     font-size: 16px;
-    text-align: center;
+    line-height: 1.2;
 }
 
 /* Portfolio card  */
@@ -189,6 +201,7 @@ a {
 .button:hover,
 .button:focus {
     background-color: var(--accent-color);
+    color: var(--fontcolor);
 }
 
 .button-hero {
