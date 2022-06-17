@@ -187,7 +187,6 @@ a {
     font-size: 16px;
     line-height: 1.9;
     color: var(--fontcolor-main);
-    letter-spacing: 0.03em;
 }
 
 /* buttons */
@@ -196,7 +195,6 @@ a {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.3;
-    letter-spacing: 0.03em;
     color: var(--fontcolor-secondary);
     background-color: var(--background-color-btn);
     border: none;
@@ -252,7 +250,7 @@ a {
 
 .footer-logoweb:hover,
 .footer-logoweb:focus {
-    color: var(--fontcolor-secondary);
+    color: var(--accent-color);
 }
 
 .footer-logo:hover,
